@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    border: 2px chocolate solid;
+    border: 5px chocolate solid;
     display: flex;
     justify-content: space-around;
 }
@@ -15,7 +15,16 @@ nav {
 }
 
 @media (min-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    body {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        column-gap: 20px;
+    }
 }
 
 @media (min-width: 800px) {
