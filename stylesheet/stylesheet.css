@@ -2,10 +2,20 @@ body {
     background-color: rgb(163, 163, 255);
 }
 
+nav {
+    border: 2px chocolate solid;
+    display: flex;
+    justify-content: space-around;
+}
+
 @media (min-width: 480px) {
     body{
         background-color: rgb(255, 131, 131);
     }
+}
+
+@media (min-width: 600px) {
+
 }
 
 @media (min-width: 800px) {
